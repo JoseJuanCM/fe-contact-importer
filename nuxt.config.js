@@ -26,6 +26,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    '~/plugins/vuefileagent.js',
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -78,7 +79,7 @@ export default {
       logout: '/auth/login/',
     }
   },
-  router: {
-    middleware: ['auth']
-  },
+  // router: {
+  //   middleware: ['auth']
+  // },
 }
