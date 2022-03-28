@@ -6,7 +6,9 @@
       <div class="flex items-center justify-between h-16">
         <div class="flex items-center">
           <div class="flex-shrink-0">
-            <img class="hidden lg:block h-10 w-auto" src="~/assets/logo.jpg">
+            <NuxtLink to="/">
+              <img class="hidden lg:block h-10 w-auto" src="~/assets/logo.jpg">
+            </NuxtLink>
           </div>
         </div>
         <span class="text-white font-medium text-xl cursor-pointer" @click="logout">Log Out</span>
