@@ -223,7 +223,7 @@ export default {
           .then((response) => {
             console.log(response)
             if(response.status == 201){
-              this.$router.push('/contacts')
+              this.$router.push('/files')
             }
           })
           .catch((error) => {
