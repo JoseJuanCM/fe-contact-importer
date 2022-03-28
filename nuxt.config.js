@@ -79,7 +79,7 @@ export default {
       logout: '/auth/login/',
     }
   },
-  // router: {
-  //   middleware: ['auth']
-  // },
+  router: {
+    middleware: ['auth']
+  },
 }
